@@ -64,7 +64,7 @@ print("FAISS index created!")
 
 import os
 
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = "Use your own key lol"
 
 from langchain.chat_models import ChatOpenAI
 
@@ -404,7 +404,7 @@ db = FAISS.from_documents(chunks, embedding_model)
 print(f"Loaded {len(chunks)} chunks into vector DB.")
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Use your own key lol"
 
 from langchain.chat_models import ChatOpenAI
 
